@@ -41,7 +41,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    android:text="事件详情"
+                    android:text="活动详情"
                     android:textColor="@android:color/black"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -228,8 +228,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="20dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_weight="0.1"
-                    android:text="科创" />
+                    android:layout_weight="0.1" />
 
                 <Button
                     android:id="@+id/tag2"
@@ -237,8 +236,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_weight="0.1"
-                    android:text="外语" />
+                    android:layout_weight="0.1" />
 
                 <Button
                     android:id="@+id/tag3"
@@ -246,8 +244,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="20dp"
-                    android:layout_weight="0.1"
-                    android:text="赛事" />
+                    android:layout_weight="0.1" />
 
             </LinearLayout>
 
@@ -263,7 +260,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/textView11"
+                android:id="@+id/tv8"
                 android:layout_width="match_parent"
                 android:layout_height="200dp" />
 
@@ -281,7 +278,6 @@
                 android:id="@+id/tv7"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:paddingTop="12.5dp"
                 android:autoLink="web" />
 
             <RelativeLayout
